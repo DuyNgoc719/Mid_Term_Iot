@@ -8,7 +8,7 @@ Tham số mô hình:
 - Số đơn vị ẩn trong các lớp: [256, 128, 64]
 - Kích thước batch: 64
 - Số epoch: 10
-- Tốc độ học: 1e-07
+- Tốc độ học: 1e-05
 
 Kích thước dữ liệu:
 - Tập huấn luyện: 5045 mẫu

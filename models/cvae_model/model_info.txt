@@ -6,5 +6,5 @@ Tham số mô hình:
 - Kích thước điều kiện: 2
 - Kích thước không gian tiềm ẩn: 32
 - Số mẫu trong bảng tra cứu: 100
-- Số giá trị HR khác nhau: 40
-- Số giá trị RR khác nhau: 37
+- Số giá trị HR khác nhau: 30
+- Số giá trị RR khác nhau: 14

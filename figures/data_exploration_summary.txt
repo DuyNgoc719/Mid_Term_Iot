@@ -1,0 +1,33 @@
+BÁO CÁO KHÁM PHÁ DỮ LIỆU BIDMC PPG AND RESPIRATION DATASET
+==========================================================
+
+Số lượng bản ghi: 53
+
+Cấu trúc dữ liệu:
+- Mỗi bản ghi chứa các trường: ppg, ekg, ref, fix
+- Tín hiệu hô hấp được lưu trữ trong trường ref.resp_sig.imp
+- Các thông số sinh lý (HR, RR, PR, SpO2) được lưu trữ trong trường ref.params
+
+Tần số lấy mẫu PPG: 125.0 Hz
+Tần số lấy mẫu Resp: 125.0 Hz
+
+Thống kê HR (Heart Rate):
+Min: 63.00, Max: 126.00, Mean: 89.15, Std: 12.76
+Phạm vi 1-sigma: 76.40 - 101.91
+
+Thống kê RR (Respiratory Rate):
+Min: 4.00, Max: 25.00, Mean: 17.57, Std: 3.65
+Phạm vi 1-sigma: 13.92 - 21.21
+
+Thống kê PR (Pulse Rate):
+Min: 41.00, Max: 117.00, Mean: 87.41, Std: 14.04
+Phạm vi 1-sigma: 73.37 - 101.45
+
+Thống kê SpO2:
+Min: 84.00, Max: 100.00, Mean: 96.61, Std: 3.43
+Phạm vi 1-sigma: 93.18 - 100.04
+
+Các file đã tạo:
+1. sample_signals.png - Biểu đồ mẫu của tín hiệu, PPG và Respiratory
+2. vital_signs_distribution.png - Phân phối của HR, RR, PR và SpO2
+4. vital_signs_statistics.csv - Thống kê chi tiết của các dấu hiệu sinh tồn
