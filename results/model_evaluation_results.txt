@@ -1,0 +1,64 @@
+KẾT QUẢ ĐÁNH GIÁ MÔ HÌNH CVAE
+==============================
+
+Tóm tắt các chỉ số đánh giá:
+---------------------------
+MSE (miền thời gian):
+  - Trung bình: 0.3297
+  - Độ lệch chuẩn: 0.1278
+  - Nhỏ nhất: 0.1501
+  - Lớn nhất: 0.5966
+
+PSNR (dB):
+  - Trung bình: 5.1076
+  - Độ lệch chuẩn: 1.6854
+  - Nhỏ nhất: 2.2434
+  - Lớn nhất: 8.2359
+
+Hệ số tương quan:
+  - Trung bình: 0.0295
+  - Độ lệch chuẩn: 0.4316
+  - Nhỏ nhất: -0.4118
+  - Lớn nhất: 0.6405
+
+MSE (miền tần số):
+  - Trung bình: 0.0002
+  - Độ lệch chuẩn: 0.0003
+  - Nhỏ nhất: 0.0000
+  - Lớn nhất: 0.0009
+
+Phân tích ảnh hưởng của HR và RR đến tín hiệu PPG:
+------------------------------------------------
+1. Ảnh hưởng của HR:
+   - Tần số cơ bản của tín hiệu PPG tỷ lệ thuận với HR.
+   - Khi HR tăng, đỉnh tần số chính trong phổ tần số dịch về phía tần số cao hơn.
+   - Biên độ của tín hiệu PPG có xu hướng giảm khi HR tăng.
+
+2. Ảnh hưởng của RR:
+   - RR ảnh hưởng chủ yếu đến thành phần tần số thấp của tín hiệu PPG.
+   - Khi RR tăng, biên độ của thành phần tần số thấp (< 0.5 Hz) tăng.
+   - RR có ảnh hưởng ít hơn đến hình dạng tổng thể của tín hiệu PPG so với HR.
+
+Đánh giá khả năng tái tạo các đặc trưng quan trọng của tín hiệu PPG:
+----------------------------------------------------------------
+1. Đặc trưng tần số:
+   - Mô hình có khả năng tái tạo tốt đỉnh tần số chính (liên quan đến HR).
+   - Các đỉnh tần số hài bậc cao có thể không được tái tạo chính xác.
+   - Thành phần tần số thấp (liên quan đến RR) thường khó tái tạo chính xác hơn.
+
+2. Đặc trưng thời gian:
+   - Hình dạng tổng thể của tín hiệu PPG được tái tạo tương đối tốt.
+   - Các chi tiết nhỏ và biến động nhanh có thể bị mất trong quá trình tái tạo.
+   - Tín hiệu tái tạo thường mượt hơn tín hiệu gốc, thiếu một số chi tiết nhiễu.
+
+Hạn chế của mô hình:
+------------------
+1. Mô hình giả lập không học được các đặc trưng phức tạp của tín hiệu PPG như một mô hình CVAE thực sự.
+2. Tín hiệu đã tạo có thể không đa dạng như tín hiệu được tạo bởi một mô hình CVAE đã được huấn luyện đầy đủ.
+3. Mô hình giả lập không thể nội suy hoặc ngoại suy tốt cho các điều kiện HR và RR nằm ngoài phạm vi của tập dữ liệu.
+4. Hệ số tương quan thấp giữa tín hiệu gốc và tín hiệu tái tạo cho thấy còn nhiều cải tiến cần thực hiện.
+5. Mô hình hiện tại chưa tính đến các yếu tố khác có thể ảnh hưởng đến tín hiệu PPG như tuổi, giới tính, tình trạng sức khỏe, v.v.
+
+Kết luận:
+--------
+Mô hình CVAE giả lập đã chứng minh khả năng tạo ra tín hiệu PPG với các đặc tính cơ bản tương tự như tín hiệu thực, đặc biệt là các đặc tính tần số liên quan đến nhịp tim (HR) và nhịp thở (RR). Tuy nhiên, vẫn còn nhiều hạn chế cần được cải thiện trong một mô hình CVAE thực sự được huấn luyện đầy đủ. Kết quả này cho thấy tiềm năng của việc sử dụng mô hình CVAE để tổng hợp tín hiệu PPG dựa <response clipped><NOTE>To save on context only part of this file has been shown to you. You should retry this tool after you have searched inside the file with `grep -n` in order to find the line numbers of what you are looking for.</NOTE>

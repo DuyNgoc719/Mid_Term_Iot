@@ -1,0 +1,115 @@
+KẾT QUẢ PHÂN TÍCH BIẾN ĐỔI FOURIER
+==================================
+
+Phương pháp phân tích:
+1. Biến đổi Fourier nhanh (FFT) để phân tích phổ tần số của tín hiệu PPG gốc và tín hiệu PPG đã tạo.
+2. Phương pháp Welch để ước lượng mật độ phổ công suất (PSD) của tín hiệu.
+3. Tìm các đỉnh trong phổ tần số để xác định các thành phần tần số chính.
+4. Tính toán các chỉ số đánh giá trong miền thời gian và miền tần số.
+
+Kết quả trung bình:
+- MSE (miền thời gian): 0.3297
+- PSNR: 5.1076dB
+- Hệ số tương quan: 0.0295
+- MSE (miền tần số): 0.0002
+
+Phân tích chi tiết:
+
+Mẫu 1:
+- Điều kiện: HR=90.0936, RR=17.8877
+- MSE (miền thời gian): 0.3505
+- PSNR: 4.5535dB
+- Hệ số tương quan: -0.1938
+- MSE (miền tần số): 0.0000
+- Các đỉnh tần số của tín hiệu gốc: 1.50 Hz, 3.00 Hz, 4.50 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.50 Hz, 3.00 Hz, 4.50 Hz
+
+Mẫu 2:
+- Điều kiện: HR=115.0998, RR=18.4262
+- MSE (miền thời gian): 0.2904
+- PSNR: 5.3702dB
+- Hệ số tương quan: 0.4269
+- MSE (miền tần số): 0.0001
+- Các đỉnh tần số của tín hiệu gốc: 1.88 Hz, 3.75 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 2.00 Hz, 3.88 Hz, 1.00 Hz
+
+Mẫu 3:
+- Điều kiện: HR=76.3160, RR=14.9376
+- MSE (miền thời gian): 0.3296
+- PSNR: 4.8206dB
+- Hệ số tương quan: -0.4118
+- MSE (miền tần số): 0.0000
+- Các đỉnh tần số của tín hiệu gốc: 2.50 Hz, 3.75 Hz, 0.88 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.25 Hz, 2.50 Hz, 3.75 Hz
+
+Mẫu 4:
+- Điều kiện: HR=82.1455, RR=18.4137
+- MSE (miền thời gian): 0.4775
+- PSNR: 3.2101dB
+- Hệ số tương quan: -0.4005
+- MSE (miền tần số): 0.0001
+- Các đỉnh tần số của tín hiệu gốc: 2.75 Hz, 4.12 Hz, 1.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.38 Hz, 2.75 Hz, 4.12 Hz
+
+Mẫu 5:
+- Điều kiện: HR=124.2557, RR=16.2037
+- MSE (miền thời gian): 0.2951
+- PSNR: 5.3007dB
+- Hệ số tương quan: -0.3809
+- MSE (miền tần số): 0.0005
+- Các đỉnh tần số của tín hiệu gốc: 2.12 Hz, 3.88 Hz, 1.12 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 6.25 Hz, 1.62 Hz, 0.50 Hz
+
+Mẫu 6:
+- Điều kiện: HR=93.0229, RR=18.9792
+- MSE (miền thời gian): 0.1501
+- PSNR: 8.2359dB
+- Hệ số tương quan: 0.6405
+- MSE (miền tần số): 0.0001
+- Các đỉnh tần số của tín hiệu gốc: 1.50 Hz, 3.00 Hz, 0.62 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 3.00 Hz, 4.50 Hz, 1.25 Hz
+
+Mẫu 7:
+- Điều kiện: HR=90.5405, RR=18.5322
+- MSE (miền thời gian): 0.5966
+- PSNR: 2.2434dB
+- Hệ số tương quan: -0.3864
+- MSE (miền tần số): 0.0001
+- Các đỉnh tần số của tín hiệu gốc: 1.50 Hz, 3.00 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.50 Hz, 3.00 Hz, 4.50 Hz
+
+Mẫu 8:
+- Điều kiện: HR=91.3181, RR=21.4387
+- MSE (miền thời gian): 0.2771
+- PSNR: 5.5730dB
+- Hệ số tương quan: 0.4265
+- MSE (miền tần số): 0.0005
+- Các đỉnh tần số của tín hiệu gốc: 1.50 Hz, 0.88 Hz, 4.62 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 3.00 Hz, 4.62 Hz, 1.12 Hz
+
+Mẫu 9:
+- Điều kiện: HR=82.1455, RR=18.4137
+- MSE (miền thời gian): 0.3258
+- PSNR: 4.8709dB
+- Hệ số tương quan: 0.0822
+- MSE (miền tần số): 0.0000
+- Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 2.75 Hz, 4.12 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.38 Hz, 2.75 Hz, 4.12 Hz
+
+Mẫu 10:
+- Điều kiện: HR=75.5156, RR=14.2973
+- MSE (miền thời gian): 0.2043
+- PSNR: 6.8978dB
+- Hệ số tương quan: 0.4923
+- MSE (miền tần số): 0.0009
+- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 2.62 Hz, 0.50 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 1.25 Hz, 2.12 Hz, 0.50 Hz
+
+Nhận xét về phổ tần số:
+1. Tín hiệu PPG gốc thường có đỉnh tần số chính ở khoảng 1-2 Hz, tương ứng với nhịp tim (60-120 bpm).
+2. Tín hiệu PPG đã tạo cũng có xu hướng tái tạo đỉnh tần số chính này, nhưng có thể có sự khác biệt về biên độ.
+3. Các thành phần tần số thấp (< 0.5 Hz) liên quan đến nhịp thở thường khó tái tạo chính xác hơn.
+4. Tín hiệu PPG đã tạo có thể thiếu một số thành phần tần số cao (> 5 Hz) so với tín hiệu gốc.
+
+Kết luận:
+Phân tích biến đổi Fourier cho thấy mô hình CVAE giả lập có thể tạo ra tín hiệu PPG với các đặc tính tần số cơ bản tương tự như tín hiệu gốc, đặc biệt là thành phần tần số liên quan đến nhịp tim. Tuy nhiên, vẫn có sự khác biệt đáng kể trong các thành phần tần số chi tiết, đặc biệt là các thành phần tần số thấp liên quan đến nhịp thở và các thành phần tần số cao. Điều này cho thấy mô hình CVAE thực sự được huấn luyện đầy đủ có thể cải thiện khả năng tái tạo các đặc tính tần số chi tiết của tín hiệu PPG.

@@ -1,0 +1,10 @@
+CẤU TRÚC DỮ LIỆU BIDMC PPG AND RESPIRATION DATASET
+=================================================
+
+Các khóa trong file .mat:
+- __header__
+- __version__
+- __globals__
+- data
+
+Thông tin chi tiết về cấu trúc dữ liệu được lưu trong file này.

@@ -1,0 +1,24 @@
+PHÂN TÍCH QUÁ TRÌNH HỘI TỤ CỦA MÔ HÌNH CVAE
+===========================================
+
+1. Tổng quan về hội tụ:
+   - Loss ban đầu: 54.2493
+   - Loss cuối cùng: 15.3781
+   - Mức giảm tuyệt đối: 38.8713
+   - Mức giảm tương đối: 71.65%
+
+2. Tốc độ hội tụ:
+   - Mô hình chưa đạt ngưỡng hội tụ (0.01) sau 500 epochs
+   - Tốc độ giảm trung bình trong 5 epoch đầu: 0.1829/epoch
+   - Tốc độ giảm trung bình trong 5 epoch cuối: 0.0315/epoch
+
+3. Cân bằng giữa reconstruction loss và KL loss:
+   - Tỷ lệ reconstruction/KL ban đầu: 10.8036
+   - Tỷ lệ reconstruction/KL cuối cùng: 4298.2215
+
+4. Kết luận về quá trình hội tụ:
+   - Mô hình hội tụ khá với mức giảm 71.65% loss ban đầu
+   - Mô hình có thể cần thêm epochs để hội tụ hoàn toàn
+
+5. Đề xuất cải thiện:
+   - Tăng số epochs để mô hình hội tụ đầy đủ

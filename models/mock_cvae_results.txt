@@ -1,0 +1,23 @@
+KẾT QUẢ MÔ HÌNH CVAE GIẢ LẬP
+============================
+
+Mô tả mô hình:
+Mô hình CVAE giả lập được tạo để minh họa khái niệm tổng hợp tín hiệu PPG dựa trên điều kiện HR và BR.
+Mô hình này sử dụng phương pháp tra cứu và nội suy để tạo tín hiệu PPG từ các mẫu có sẵn trong tập dữ liệu.
+
+Phương pháp tạo tín hiệu:
+1. Tạo bảng tra cứu từ các mẫu trong tập huấn luyện, ánh xạ giá trị HR và RR đến các tín hiệu PPG tương ứng.
+2. Khi nhận điều kiện HR và RR mới, tìm các mẫu gần nhất trong bảng tra cứu.
+3. Nếu có mẫu thỏa mãn cả HR và RR, sử dụng mẫu đó làm cơ sở.
+4. Nếu không có mẫu thỏa mãn cả hai, sử dụng mẫu thỏa mãn HR và điều chỉnh để phản ánh RR.
+5. Thêm nhiễu ngẫu nhiên để tạo sự đa dạng và chuẩn hóa lại tín hiệu.
+
+Kết quả:
+- Đã tạo 25 tín hiệu PPG với các điều kiện HR và RR khác nhau.
+- Phân tích phổ tần số cho thấy tín hiệu đã tạo có đặc tính tần số tương tự với tín hiệu gốc.
+- Tín hiệu đã tạo có thể được sử dụng để minh họa khái niệm tổng hợp tín hiệu PPG dựa trên điều kiện HR và BR.
+
+Hạn chế:
+- Mô hình giả lập không học được các đặc trưng phức tạp của tín hiệu PPG như một mô hình CVAE thực sự.
+- Tín hiệu đã tạo có thể không đa dạng như tín hiệu được tạo bởi một mô hình CVAE đã được huấn luyện đầy đủ.
+- Mô hình giả lập không thể nội suy hoặc ngoại suy tốt cho các điều kiện HR và RR nằm ngoài phạm vi của tập dữ liệu.
