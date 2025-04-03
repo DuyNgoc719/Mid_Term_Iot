@@ -16,9 +16,9 @@ Kích thước dữ liệu:
 - Tập kiểm thử: 1262 mẫu
 
 Thống kê HR (không chuẩn hóa):
-- Min: 63.0000, Max: 126.0000
-- Mean: 89.1509, Std: 12.7552
+- Min: 50.0000, Max: 136.0000
+- Mean: 89.1821, Std: 13.3047
 
 Thống kê RR (không chuẩn hóa):
-- Min: 4.0000, Max: 25.0000
-- Mean: 17.5660, Std: 3.6472
+- Min: 5.5000, Max: 33.0000
+- Mean: 17.6446, Std: 3.0005
