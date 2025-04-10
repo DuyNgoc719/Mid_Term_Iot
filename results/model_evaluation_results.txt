@@ -4,28 +4,28 @@ KẾT QUẢ ĐÁNH GIÁ MÔ HÌNH CVAE
 Tóm tắt các chỉ số đánh giá:
 ---------------------------
 MSE (miền thời gian):
-  - Trung bình: 0.0324
-  - Độ lệch chuẩn: 0.0140
-  - Nhỏ nhất: 0.0195
-  - Lớn nhất: 0.0520
+  - Trung bình: 0.0344
+  - Độ lệch chuẩn: 0.0164
+  - Nhỏ nhất: 0.0112
+  - Lớn nhất: 0.0632
 
 PSNR (dB):
-  - Trung bình: 12.7609
-  - Độ lệch chuẩn: 2.2465
-  - Nhỏ nhất: 8.8449
-  - Lớn nhất: 14.9678
+  - Trung bình: 13.4928
+  - Độ lệch chuẩn: 1.5532
+  - Nhỏ nhất: 11.3020
+  - Lớn nhất: 16.4442
 
 Hệ số tương quan:
-  - Trung bình: 0.0166
-  - Độ lệch chuẩn: 0.1017
-  - Nhỏ nhất: -0.0950
-  - Lớn nhất: 0.1777
+  - Trung bình: -0.0037
+  - Độ lệch chuẩn: 0.1407
+  - Nhỏ nhất: -0.2223
+  - Lớn nhất: 0.1832
 
 MSE (miền tần số):
-  - Trung bình: 0.0035
-  - Độ lệch chuẩn: 0.0021
-  - Nhỏ nhất: 0.0005
-  - Lớn nhất: 0.0066
+  - Trung bình: 0.0041
+  - Độ lệch chuẩn: 0.0026
+  - Nhỏ nhất: 0.0006
+  - Lớn nhất: 0.0073
 
 Phân tích ảnh hưởng của HR và RR đến tín hiệu PPG:
 ------------------------------------------------

@@ -8,101 +8,101 @@ Phương pháp phân tích:
 4. Tính toán các chỉ số đánh giá trong miền thời gian và miền tần số.
 
 Kết quả trung bình:
-- MSE (miền thời gian): 0.0324
-- PSNR: 12.7609dB
-- Hệ số tương quan: 0.0166
-- MSE (miền tần số): 0.0035
+- MSE (miền thời gian): 0.0344
+- PSNR: 13.4928dB
+- Hệ số tương quan: -0.0037
+- MSE (miền tần số): 0.0041
 
 Phân tích chi tiết:
 
 Mẫu 1:
-- Điều kiện: HR=71.7500, RR=12.7500
-- MSE (miền thời gian): 0.0195
-- PSNR: 13.8574dB
-- Hệ số tương quan: -0.0816
-- MSE (miền tần số): 0.0059
-- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 0.00 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 2:
-- Điều kiện: HR=76.0000, RR=17.0000
-- MSE (miền thời gian): 0.0418
-- PSNR: 8.8449dB
-- Hệ số tương quan: 0.0577
-- MSE (miền tần số): 0.0040
-- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 2.50 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 3:
-- Điều kiện: HR=75.7500, RR=17.0000
-- MSE (miền thời gian): 0.0507
-- PSNR: 8.9321dB
-- Hệ số tương quan: -0.0692
-- MSE (miền tần số): 0.0040
-- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 2.50 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 4:
-- Điều kiện: HR=83.7500, RR=13.7500
-- MSE (miền thời gian): 0.0201
-- PSNR: 13.7703dB
-- Hệ số tương quan: -0.0814
-- MSE (miền tần số): 0.0013
-- Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 0.00 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 5:
-- Điều kiện: HR=106.0000, RR=16.0000
-- MSE (miền thời gian): 0.0272
-- PSNR: 13.9021dB
-- Hệ số tương quan: -0.0401
-- MSE (miền tần số): 0.0044
-- Các đỉnh tần số của tín hiệu gốc: 1.75 Hz, 0.00 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 6:
-- Điều kiện: HR=80.0000, RR=19.0000
-- MSE (miền thời gian): 0.0520
-- PSNR: 11.8289dB
-- Hệ số tương quan: 0.0881
-- MSE (miền tần số): 0.0013
-- Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 0.00 Hz, 0.00 Hz
-- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
-
-Mẫu 7:
 - Điều kiện: HR=82.0000, RR=20.0000
-- MSE (miền thời gian): 0.0484
-- PSNR: 12.4993dB
-- Hệ số tương quan: -0.0950
+- MSE (miền thời gian): 0.0470
+- PSNR: 12.4538dB
+- Hệ số tương quan: 0.0155
 - MSE (miền tần số): 0.0017
 - Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 2.75 Hz, 0.00 Hz
 - Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
 
-Mẫu 8:
-- Điều kiện: HR=102.7500, RR=16.2500
-- MSE (miền thời gian): 0.0211
-- PSNR: 14.9678dB
-- Hệ số tương quan: 0.0704
-- MSE (miền tần số): 0.0066
+Mẫu 2:
+- Điều kiện: HR=62.7500, RR=18.0000
+- MSE (miền thời gian): 0.0240
+- PSNR: 14.6029dB
+- Hệ số tương quan: -0.0547
+- MSE (miền tần số): 0.0071
+- Các đỉnh tần số của tín hiệu gốc: 1.00 Hz, 2.12 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
+Mẫu 3:
+- Điều kiện: HR=97.5000, RR=18.0000
+- MSE (miền thời gian): 0.0367
+- PSNR: 13.7196dB
+- Hệ số tương quan: -0.0748
+- MSE (miền tần số): 0.0068
+- Các đỉnh tần số của tín hiệu gốc: 1.75 Hz, 0.00 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
+Mẫu 4:
+- Điều kiện: HR=113.7500, RR=18.0000
+- MSE (miền thời gian): 0.0325
+- PSNR: 13.8866dB
+- Hệ số tương quan: -0.0333
+- MSE (miền tần số): 0.0073
 - Các đỉnh tần số của tín hiệu gốc: 1.88 Hz, 0.00 Hz, 0.00 Hz
 - Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
 
-Mẫu 9:
-- Điều kiện: HR=81.2500, RR=15.5000
-- MSE (miền thời gian): 0.0199
-- PSNR: 14.3904dB
-- Hệ số tương quan: 0.1396
-- MSE (miền tần số): 0.0005
+Mẫu 5:
+- Điều kiện: HR=74.0000, RR=12.0000
+- MSE (miền thời gian): 0.0272
+- PSNR: 12.5174dB
+- Hệ số tương quan: -0.2039
+- MSE (miền tần số): 0.0062
+- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 0.00 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
+Mẫu 6:
+- Điều kiện: HR=75.0000, RR=15.0000
+- MSE (miền thời gian): 0.0151
+- PSNR: 14.9989dB
+- Hệ số tương quan: 0.0815
+- MSE (miền tần số): 0.0037
+- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 0.00 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
+Mẫu 7:
+- Điều kiện: HR=78.2500, RR=17.7500
+- MSE (miền thời gian): 0.0341
+- PSNR: 12.9987dB
+- Hệ số tương quan: 0.1238
+- MSE (miền tần số): 0.0015
 - Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 0.00 Hz, 0.00 Hz
 - Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
 
+Mẫu 8:
+- Điều kiện: HR=82.0000, RR=20.0000
+- MSE (miền thời gian): 0.0534
+- PSNR: 12.0035dB
+- Hệ số tương quan: 0.1832
+- MSE (miền tần số): 0.0006
+- Các đỉnh tần số của tín hiệu gốc: 1.38 Hz, 0.00 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
+Mẫu 9:
+- Điều kiện: HR=74.5000, RR=14.0000
+- MSE (miền thời gian): 0.0632
+- PSNR: 11.3020dB
+- Hệ số tương quan: 0.1481
+- MSE (miền tần số): 0.0048
+- Các đỉnh tần số của tín hiệu gốc: 1.25 Hz, 2.50 Hz, 0.00 Hz
+- Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
+
 Mẫu 10:
-- Điều kiện: HR=109.2500, RR=15.7500
-- MSE (miền thời gian): 0.0237
-- PSNR: 14.6154dB
-- Hệ số tương quan: 0.1777
-- MSE (miền tần số): 0.0054
-- Các đỉnh tần số của tín hiệu gốc: 1.88 Hz, 0.00 Hz, 0.00 Hz
+- Điều kiện: HR=80.2500, RR=13.0000
+- MSE (miền thời gian): 0.0112
+- PSNR: 16.4442dB
+- Hệ số tương quan: -0.2223
+- MSE (miền tần số): 0.0016
+- Các đỉnh tần số của tín hiệu gốc: 0.00 Hz, 0.00 Hz, 0.00 Hz
 - Các đỉnh tần số của tín hiệu đã tạo: 0.00 Hz, 0.00 Hz, 0.00 Hz
 
 Nhận xét về phổ tần số:
